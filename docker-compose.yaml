@@ -14,4 +14,4 @@ websrv:
       - MYSQL_PASSWORD=pentesterlab
       - MYSQL_DATABASE=photoblog
     volumes:
-      - /Photoblog/photoblog.sql:/docker-entrypoint-initdb.d/photoblog.sql
+      - /db/photoblog.sql:/docker-entrypoint-initdb.d/photoblog.sql
