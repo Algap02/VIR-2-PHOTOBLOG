@@ -11,7 +11,7 @@ services:
       - "80:80"
 
   mysql-server:
-    image: mysql:latest
+    image: mysql:5
     restart: always
     environment:
       TZ: "Europe/Zurich"
