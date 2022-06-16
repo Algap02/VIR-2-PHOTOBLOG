@@ -1,9 +1,11 @@
-websrv:
+version: '3'
+services:
+  websrv:
     image: php:5-apache
     ports:
       - "80:80"
     volumes:
-      - /php:/var/www/html
+      - /Photoblog:/var/www/html
   db:
     image: mysql:5
     ports:
