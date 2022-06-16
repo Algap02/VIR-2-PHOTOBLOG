@@ -1,4 +1,4 @@
-FROM php:5.5-apache
+FROM php:5-apache
 
 COPY conf/php.ini /usr/local/etc/php/php.ini
 
